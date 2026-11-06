@@ -1,0 +1,67 @@
+html {scroll-behavior: smooth;}
+
+body {margin: 0;padding: 0;font-family: Arial, Helvetica, sans-serif;background-color: #0A0A0A;color: #FFFFFF;}
+
+.navbar {margin-top: 0; background: #f3efef; background: linear-gradient(90deg,rgba(255, 255, 255, 1) 0%, rgba(48, 46, 46, 1) 41%, rgba(10, 10, 10, 1) 100%);}
+
+.navbar .nav-link {font-size: 17px; margin-right: 10px;}
+
+.navbar .nav-link:hover {color: #FFFFFF;}
+
+.navbar-collapse > a {margin-left: 8px;}
+
+.navbar-collapse > a img {object-fit: contain;transition: transform 0.2s ease;}
+
+.navbar-collapse > a img:hover {transform: scale(1.2);}
+
+#home {scroll-margin-top: 80px;}
+
+.container.text-center h1 {font-weight: bold;margin-bottom: 20px;}
+
+.container.text-center > img {max-width: 100%;height: auto;}
+
+.container.text-center p {font-size: 17px;line-height: 1.7;}
+
+#members {scroll-margin-top: 80px;}
+
+.column {display: flex;flex-direction: column;gap: 30px;}
+
+.column img {width: 200px;height: 250px;object-fit: cover;border-radius: 10px;margin-bottom: 15px;}
+
+.column h4 {font-weight: bold;margin-top: 10px;}
+
+.column p {line-height: 1.6;font-size: 16px;}
+
+#music {scroll-margin-top: 80px; text-align: center; background-color: #0A0A0A;}
+
+#carouselStackedBottom {width: 100%; max-width: 800px; margin: 40px auto; padding: 20px; box-sizing: border-box;}
+
+#carouselStackedBottom .carousel-item {text-align: center;}
+
+.carousel-control-next {width: 50px; height: 50px;top: 50%; transform: translateY(-50%); background-color: rgba(164, 152, 152, 0.5); border-radius: 50%; opacity: 1;}
+
+.carousel-control-prev {width: 50px; height: 50px; top: 50%; transform: translateY(-50%); background-color: rgba(164, 152, 152, 0.5);border-radius: 50%; opacity: 1;}
+
+.carousel-control-prev {left: 15px;}
+
+.carousel-control-next {right: 15px;}
+
+.carousel-control-next-icon {width: 25px; height: 25px; background-size: 100% 100%;}
+
+.carousel-control-prev-icon {width: 25px; height: 25px; background-size: 100% 100%;}
+
+.carousel-control-next:hover {background-color: rgba(205, 193, 193, 0.8);}
+
+.carousel-control-prev:hover {background-color: rgba(205, 193, 193, 0.8);}
+
+.calendar {width: 75%; border-collapse: collapse; text-align: center; margin: 0 auto; margin-bottom: 25px; background-color: #302e2e;}
+
+.calendar th,.calendar td {padding: 12px;border: 2px solid #FFFFFF;}
+
+.calendar thead th {font-weight: bold; border: 4px solid #FFFFFF;}
+
+.calendar tbody th {background: #302e2e;font-weight: bold; border: 4px solid #FFFFFF;}
+
+.calendar td {height: 50px;}
+
+.footer {width: 100%; margin: 40px 0 0 0; padding: 15px 0; background-color: #302e2e; color: #FFFFFF; font-size: 14px;}
